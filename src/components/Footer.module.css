@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+  height: 20rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.company img {
+  width: 4.5rem;
+}
+
+.company p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fe0000;
+}
+
+.info {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.info img {
+  width: 2rem;
+}
+
+/* MAP */
+
+.map {
+  overflow: hidden;
+  resize: none;
+  max-width: 100%;
+  width: 500px;
+  height: 400px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

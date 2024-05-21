@@ -1,0 +1,144 @@
+.contactSection {
+  background-color: orange;
+  color: white;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contactIntro {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.contactInfo:first-child {
+  margin-right: 5.5rem;
+}
+
+.contactInfo img {
+  width: 4rem;
+}
+
+.scheduleText {
+  text-align: center;
+}
+
+/* FORM */
+
+.contactForm {
+  height: 25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.contactForm img {
+  width: 25rem;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+}
+
+.formIntro {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  width: 35rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.form input {
+  width: 90%;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  transition: border-color 200ms ease;
+}
+
+.form input:focus {
+  border-color: #3c3c3c;
+}
+
+.form textarea {
+  width: 90%;
+  height: 6rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  resize: none;
+  transition: border-color 200ms ease;
+}
+
+.form button {
+  background-color: orange;
+  padding: 0.8rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 200ms ease;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 0.5px;
+}

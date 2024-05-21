@@ -1,0 +1,94 @@
+.examContainerOdd {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  height: 25rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.examContentOdd {
+  width: 55%;
+  text-align: justify;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.examContentOdd p {
+  font-size: 1.2rem;
+  color: #fe0000;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.examImgOdd {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.examImgOdd img {
+  width: 75%;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: none;
+}
+
+/* EVEN */
+
+.examContainerEven {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+  height: 25rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.examContentEven {
+  width: 60%;
+  text-align: justify;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.examContentEven p {
+  font-size: 1.2rem;
+  color: #fe0000;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.examImgEven {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.examImgEven img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: none;
+}
+
+.learn {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: end;
+  position: absolute;
+  color: #3774bb;
+  bottom: 0rem;
+  right: 0;
+  transition: all 200ms ease;
+}
+
+.learn:hover {
+  color: lightblue;
+}
