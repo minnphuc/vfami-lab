@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Grid, Skeleton } from "@mui/material";
 
 import Examination from "./Examination";
@@ -22,47 +22,6 @@ for (let i = 0; i < 12; i++) {
 }
 
 function Main() {
-  const [cardList, setCardList] = useState([]);
-
-  useEffect(() => {
-    const fetchPokeCard = async () => {
-      try {
-        const res = await fetch(
-          "https://api.pokemontcg.io/v2/cards?q=set.id:sm1&pageSize=12&page=3",
-          {
-            method: "GET",
-            headers: {
-              "X-Api-Key": "ec56cdc6-a140-4391-b8cb-2a3cc531cee5",
-            },
-          }
-        );
-
-        const { data } = await res.json();
-
-        console.log(data);
-        const processedCardList = data.map(card => {
-          return {
-            id: card.id,
-            name: card.name,
-            img: card.images.large,
-            atk: isNaN(parseInt(card.attacks[0]?.damage))
-              ? parseInt(card.attacks[1]?.damage)
-              : parseInt(card.attacks[0]?.damage),
-            hp: +card.hp,
-            cost: card.cardMain.prices.averageSellPrice,
-          };
-        });
-        console.log(processedCardList);
-
-        setCardList(processedCardList);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-
-    fetchPokeCard();
-  }, []);
-
   return (
     <>
       <header className={classes.firstSection}></header>
