@@ -28,12 +28,12 @@ function Main() {
 
       <hr id="introduction" />
 
-      <p className={classes.title}>GIỚI THIỆU VỀ XÉT NGHIỆM Y KHOA VFAMI</p>
+      <p className={classes.title}>GIỚI THIỆU VỀ PHÒNG XÉT NGHIỆM Y KHOA VFAMI</p>
 
       <div className={classes.introContainer}>
         <div className={classes.introContent}>
           <p>
-            Công ty Xét nghiệm Y khoa VFAMI tự hào là đơn vị hàng đầu trong lĩnh vực cung
+            Phòng xét nghiệm Y khoa VFAMI tự hào là đơn vị hàng đầu trong lĩnh vực cung
             cấp các dịch vụ xét nghiệm y khoa chuyên nghiệp và toàn diện. Với sứ mệnh nâng
             cao chất lượng chăm sóc sức khỏe cho cộng đồng, VFAMI không ngừng nỗ lực để
             mang đến những dịch vụ xét nghiệm chính xác, nhanh chóng và đáng tin cậy.
@@ -46,8 +46,8 @@ function Main() {
             </ul>
             Tại VFAMI, chúng tôi luôn đặt sức khỏe và sự hài lòng của khách hàng lên hàng
             đầu. Với đội ngũ nhân viên chuyên nghiệp, trang thiết bị tiên tiến và quy
-            trình kiểm tra nghiêm ngặt, VFAMI cam kết mang đến dịch vụ xét nghiệm y khoa
-            tốt nhất cho bạn và gia đình.
+            trình kiểm tra nghiêm ngặt, Phòng xét nghiệm VFAMI cam kết mang đến dịch vụ
+            xét nghiệm y khoa tốt nhất cho bạn và gia đình.
           </p>
         </div>
 

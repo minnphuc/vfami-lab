@@ -40,13 +40,13 @@ function Contact() {
 
       <p className={classes.contactIntro}>
         Bạn có thắc mắc về các dịch vụ xét nghiệm của chúng tôi? Hãy gọi đến Hotline của
-        Xét nghiệm y khoa VFAMI để được tư vấn nhanh nhất
+        Phòng xét nghiệm y khoa VFAMI để được tư vấn nhanh nhất
       </p>
 
       <div className={classes.contact}>
         <div className={classes.contactInfo}>
           <img src={callIcon} alt="call" />
-          <p className={classes.contactText}>HOTLINE: 1900 6099</p>
+          <p className={classes.contactText}>HOTLINE: 028 66867661</p>
         </div>
 
         <div className={classes.contactInfo}>

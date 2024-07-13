@@ -18,9 +18,9 @@ function Examination() {
             <p id="gyn">XÉT NGHIỆM UNG THƯ CỔ TỬ CUNG</p>
             Xét nghiệm ung thư cổ tử cung được khuyến cáo nên thực hiện định kỳ ở phụ nữ
             độ tuổi sinh sản. Xét nghiệm sẽ giúp phát hiện sớm bệnh hoặc yếu tố tiền ung
-            thư để phòng ngừa, điều trị sớm để đem lại hiệu quả cao hơn. Xét nghiệm y khoa
-            VFAMI cung cấp các phương pháp xét nghiệm như PAP's cổ điển và PAP thế hệ mới
-            Thinprep pap test, Liquiprep pap test. Dịch vụ của chúng tôi đảm bảo kết quả
+            thư để phòng ngừa, điều trị sớm để đem lại hiệu quả cao hơn. Phòng xét nghiệm
+            y khoa VFAMI cung cấp đa dạng các phương pháp xét nghiệm như PAP's cổ điển và
+            PAP nhúng dịch thế hệ mới. Dịch vụ xét nghiệm của chúng tôi đảm bảo kết quả
             chính xác và hỗ trợ tư vấn phòng ngừa hiệu quả.
             {/* <Link className={classes.learn}>Tìm hiểu thêm</Link> */}
           </div>
@@ -59,8 +59,8 @@ function Examination() {
             Xét nghiệm sinh học phân tử sử dụng công nghệ tiên tiến để phân tích gen và
             phát hiện virus HPV, nguyên nhân chính gây ung thư cổ tử cung. Xét nghiệm sinh
             học phân tử giúp chẩn đoán chính xác và sớm các bệnh lý phức tạp, từ đó tăng
-            khả năng điều trị thành công. VFAMI cung cấp các xét nghiệm như PCR và giải
-            trình tự gen, đảm bảo kết quả nhanh chóng và tin cậy.
+            khả năng điều trị thành công. VFAMI cung cấp các xét nghiệm như PCR HPV và
+            giải trình tự gen, đảm bảo kết quả nhanh chóng và tin cậy.
             {/* <Link className={classes.learn}>Tìm hiểu thêm</Link> */}
           </div>
 

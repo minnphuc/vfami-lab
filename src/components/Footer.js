@@ -31,7 +31,7 @@ function Footer() {
 
           <p className={classes.info}>
             <img src={callIcon} alt="hotline" />
-            Hotline: 1900 6099
+            Hotline: 028 66867661
           </p>
 
           <p className={classes.info}>
