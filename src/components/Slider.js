@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import "./Slider.css"; // Import external CSS
 
@@ -11,26 +11,27 @@ import arrowFord from "../icons/arrow_forward.svg";
 
 const images = [banner1, banner2, banner3];
 
+let intervalRef = null;
+
 function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState("next");
 
-  let intervalRef = null;
+  const stopAutoSlide = useCallback(() => {
+    if (intervalRef) clearInterval(intervalRef);
+  }, []);
 
-  useEffect(() => {
-    startAutoSlide();
-    return () => stopAutoSlide();
-  }, [currentIndex]);
-
-  const startAutoSlide = () => {
+  const startAutoSlide = useCallback(() => {
     stopAutoSlide();
     intervalRef = setInterval(() => {
       nextSlide();
     }, 5000); // Auto-slide every 3 seconds
-  };
-  const stopAutoSlide = () => {
-    if (intervalRef) clearInterval(intervalRef);
-  };
+  }, [stopAutoSlide]);
+
+  useEffect(() => {
+    startAutoSlide();
+    return () => stopAutoSlide();
+  }, [currentIndex, startAutoSlide, stopAutoSlide]);
 
   const prevSlide = () => {
     setSlideDirection("prev");
