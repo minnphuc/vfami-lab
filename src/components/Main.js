@@ -24,8 +24,6 @@ for (let i = 0; i < 12; i++) {
 function Main() {
   return (
     <>
-      <header className={classes.firstSection}></header>
-
       <hr id="introduction" />
 
       <p className={classes.title}>GIỚI THIỆU VỀ PHÒNG XÉT NGHIỆM Y KHOA VFAMI</p>
