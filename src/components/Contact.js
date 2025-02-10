@@ -27,8 +27,9 @@ function Contact() {
 
     dispatch(
       modalActions.openModal({
-        title: "THÔNG BÁO",
-        content: "VFAMI đã tiếp nhận thông tin của bạn",
+        title: "XIN CẢM ƠN",
+        content:
+          "VFAMI Lab đã tiếp nhận thông tin của bạn và sẽ liên hệ với bạn trong thời gian sớm nhất.",
       })
     );
     console.log(inputName, inputPhone, inputContent);

@@ -35,7 +35,9 @@ function Modal() {
   return (
     <ThemeProvider theme={theme}>
       <Dialog open={isOpen} fullWidth maxWidth="sm">
-        <DialogTitle>{title}</DialogTitle>
+        <DialogTitle color={"#fe0000"} fontWeight={"700"}>
+          {title}
+        </DialogTitle>
 
         <DialogContent>
           <DialogContentText>{content}</DialogContentText>

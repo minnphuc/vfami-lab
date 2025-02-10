@@ -5,12 +5,10 @@ import "./Slider.css"; // Import external CSS
 import banner1 from "../icons/banner vfami 1.jpg";
 import banner2 from "../icons/banner vfami 2.jpg";
 import banner3 from "../icons/banner vfami 3.jpg";
-
 import arrowBack from "../icons/arrow_back.svg";
 import arrowFord from "../icons/arrow_forward.svg";
 
 const images = [banner1, banner2, banner3];
-
 let intervalRef = null;
 
 function ImageSlider() {
@@ -20,7 +18,6 @@ function ImageSlider() {
   const stopAutoSlide = useCallback(() => {
     if (intervalRef) clearInterval(intervalRef);
   }, []);
-
   const startAutoSlide = useCallback(() => {
     stopAutoSlide();
     intervalRef = setInterval(() => {
@@ -32,6 +29,14 @@ function ImageSlider() {
     startAutoSlide();
     return () => stopAutoSlide();
   }, [currentIndex, startAutoSlide, stopAutoSlide]);
+
+  useEffect(() => {
+    const preloadImgs = () => {
+      new Image().src = images[1];
+      new Image().src = images[2];
+    };
+    preloadImgs();
+  }, []);
 
   const prevSlide = () => {
     setSlideDirection("prev");
