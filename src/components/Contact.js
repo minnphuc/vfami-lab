@@ -47,7 +47,7 @@ function Contact() {
       <div className={classes.contact}>
         <div className={classes.contactInfo}>
           <img src={callIcon} alt="call" />
-          <p className={classes.contactText}>HOTLINE: 028 66867661</p>
+          <p className={classes.contactText}>HOTLINE: 094 4867661</p>
         </div>
 
         <div className={classes.contactInfo}>
